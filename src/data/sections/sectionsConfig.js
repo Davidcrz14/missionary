@@ -18,7 +18,7 @@ export const sections = [
     subtitle: 'Fundamentos escriturales',
     description: 'El poder de las escrituras y la revelación continua',
     icon: '📖',
-    color: 'green',
+    color: 'emerald',
     topics: scripturesRevelation,
     stats: { topics: 10, scriptures: '35+', activities: '30+', questions: '40+' }
   },

@@ -46,11 +46,23 @@ const SectionPage = () => {
         )
     }
 
+    // Función para obtener el estilo del header basado en el color de la sección
+    const getHeaderStyle = (color) => {
+        const gradients = {
+            blue: 'bg-gradient-to-r from-blue-600 to-blue-700',
+            emerald: 'bg-gradient-to-r from-emerald-600 to-emerald-800',
+            purple: 'bg-gradient-to-r from-purple-600 to-purple-800',
+            amber: 'bg-gradient-to-r from-amber-600 to-amber-700',
+            red: 'bg-gradient-to-r from-red-600 to-red-700'
+        }
+        return gradients[color] || 'bg-gradient-to-r from-gray-600 to-gray-700'
+    }
+
     return (
         <>
             {/* Header de sección */}
             <div className="mb-8">
-                <div className={`bg-gradient-to-r from-${section.color}-600 to-${section.color}-700 rounded-2xl p-8 text-white shadow-xl`}>
+                <div className={`${getHeaderStyle(section.color)} rounded-2xl p-8 text-white shadow-xl`}>
                     <div className="flex items-center gap-4 mb-4">
                         <div className="text-6xl">{section.icon}</div>
                         <div>
