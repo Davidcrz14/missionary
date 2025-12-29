@@ -1,5 +1,8 @@
 import articles from "../articles";
+import commandmentsCovenants from "../commandmentsCovenants";
 import { doctrineBasics } from "../fundamentalTopics";
+import missionarySkills from "../missionarySkills";
+import restorationAuthority from "../restorationAuthority";
 import scripturesRevelation from "../scripturesRevelation";
 
 export const sections = [
@@ -40,12 +43,12 @@ export const sections = [
     description: "La Primera Visión y la restauración de la autoridad",
     icon: "sun", // Restauración - Primera Visión/Luz
     color: "purple",
-    topics: [], // Pendiente
+    topics: restorationAuthority,
     stats: {
-      topics: 10,
-      scriptures: "30+",
-      activities: "25+",
-      questions: "35+",
+      topics: 6,
+      scriptures: "24+",
+      activities: "18+",
+      questions: "24+",
     },
   },
   {
@@ -55,12 +58,12 @@ export const sections = [
     description: "Los mandamientos y convenios que nos acercan a Cristo",
     icon: "compass", // Mandamientos - Guía/Dirección
     color: "amber",
-    topics: [], // Pendiente
+    topics: commandmentsCovenants,
     stats: {
-      topics: 10,
-      scriptures: "25+",
-      activities: "30+",
-      questions: "30+",
+      topics: 8,
+      scriptures: "32+",
+      activities: "24+",
+      questions: "32+",
     },
   },
   {
@@ -70,12 +73,12 @@ export const sections = [
     description: "Herramientas prácticas para enseñar el evangelio",
     icon: "wand-magic-sparkles", // Habilidades - El "arte" de enseñar
     color: "red",
-    topics: [], // Pendiente
+    topics: missionarySkills,
     stats: {
-      topics: 10,
-      scriptures: "20+",
-      activities: "50+",
-      questions: "40+",
+      topics: 8,
+      scriptures: "15+",
+      activities: "60+",
+      questions: "35+",
     },
   },
   {
