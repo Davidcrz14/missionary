@@ -1,4 +1,5 @@
 import { Link, useLocation, useParams } from 'react-router-dom'
+
 import { getSectionById, getTopicById } from '../data/sections/sectionsConfig'
 
 const Layout = ({ children }) => {
@@ -6,73 +7,46 @@ const Layout = ({ children }) => {
     const { sectionId, topicId } = useParams()
 
     const isHomePage = location.pathname === '/'
-    const currentSection = sectionId ? getSectionById(sectionId) : null
-    const currentTopic = topicId && sectionId ? getTopicById(sectionId, topicId) : null
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
-            {/* Header */}
-            <header className="relative bg-white/95 backdrop-blur-sm border-b border-blue-200/50 sticky top-0 z-20 shadow-lg">
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-600/5 via-transparent to-blue-600/5"></div>
-
-                <div className="relative max-w-7xl mx-auto px-6 py-4">
-                    <div className="flex items-center justify-between">
-                        {/* Logo y título */}
-                        <Link
-                            to="/"
-                            className="flex items-center gap-3 hover:scale-105 transition-transform duration-300"
-                        >
-                            <div className="p-3 bg-blue-600 rounded-2xl shadow-lg">
-                                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2L2 7v10c0 5.55 3.84 9.739 9 11 5.16-1.261 9-5.45 9-11V7l-10-5z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-900 to-blue-700 bg-clip-text text-transparent">
-                                    Temas Fundamentales SUD
-                                </h1>
-                                <p className="text-gray-600 text-sm">
-                                    Material de estudio para misioneros
-                                </p>
-                            </div>
-                        </Link>
-
-                        {/* Navigation breadcrumb */}
-                        {!isHomePage && (
-                            <div className="flex items-center gap-2 text-sm text-gray-600">
-                                <Link
-                                    to="/"
-                                    className="hover:text-blue-600 transition-colors"
-                                >
-                                    Inicio
-                                </Link>
-                                {currentSection && (
-                                    <>
-                                        <span>•</span>
-                                        <Link
-                                            to={`/section/${sectionId}`}
-                                            className="hover:text-blue-600 transition-colors text-blue-600 font-medium"
-                                        >
-                                            {currentSection.title}
-                                        </Link>
-                                    </>
-                                )}
-                                {currentTopic && (
-                                    <>
-                                        <span>•</span>
-                                        <span className="text-gray-800 font-medium">
-                                            {currentTopic.title}
-                                        </span>
-                                    </>
-                                )}
-                            </div>
-                        )}
+        <div className="min-h-screen bg-[#FFFBF5] text-gray-900 font-sans">
+            {/* Header Minimalista - Clean Logo & Title only */}
+            <header className="relative py-6 px-8 max-w-[1400px] mx-auto w-full z-20 flex items-center justify-between">
+                <Link to="/" className="flex items-center gap-4 hover:opacity-80 transition-opacity">
+                     {/* Logo Christus generado anteriormente */}
+                    <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl overflow-hidden shadow-sm">
+                        <img
+                            src="/christus-logo.png"
+                            alt="Logo SUD"
+                            className="w-full h-full object-cover"
+                        />
                     </div>
-                </div>
+                    <div className="flex flex-col">
+                        <span className="text-xl md:text-2xl font-semibold text-gray-900 tracking-tight">
+                            Notas de Estudio
+                        </span>
+                        <span className="text-xs text-gray-500 font-medium tracking-wide uppercase">
+                            Misioneros SUD
+                        </span>
+                    </div>
+                </Link>
+
+                {/* Right side - Optional: Simple Profile/Search or Empty for absolute minimalism */}
+                {/* For now, keeping it empty or just legal links if needed, but user asked to remove "source y todo lo de el header" */}
+                {/* We'll leave it clean but maybe keep the breadcrumbs logic distinct if needed, but the user said "solo pon el title... y el logo" */}
             </header>
 
+            {/* Breadcrumbs condicionles (se mantienen sutiles si no es Home) */}
+            {!isHomePage && (
+                <div className="max-w-[1400px] mx-auto px-8 mt-2 mb-4 text-xs text-gray-400 font-medium">
+                    <Link to="/" className="hover:text-gray-900 transition-colors">Inicio</Link>
+                    {sectionId && <span> <span className="mx-1">/</span> {getSectionById(sectionId)?.title}</span>}
+                    {topicId && <span> <span className="mx-1">/</span> {getTopicById(sectionId, topicId)?.title}</span>}
+                </div>
+            )}
+
             {/* Main Content */}
-            <main className="max-w-7xl mx-auto px-6 py-8">
+            <main className="w-full">
                 {children}
             </main>
         </div>

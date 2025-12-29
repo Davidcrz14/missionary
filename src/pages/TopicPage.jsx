@@ -1,4 +1,5 @@
 import { Link, useParams } from 'react-router-dom'
+import ArticleDetail from '../components/ArticleDetail'
 import TopicDetail from '../components/TopicDetail'
 import { getTopicById } from '../data/sections/sectionsConfig'
 
@@ -8,32 +9,30 @@ const TopicPage = () => {
 
     if (!topic) {
         return (
-            <div className="text-center py-16">
-                <div className="text-6xl mb-6">❌</div>
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                    Tema no encontrado
-                </h2>
-                <p className="text-gray-600 mb-8">
-                    El tema que buscas no existe.
-                </p>
-                <Link
-                    to="/"
-                    className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-medium transition-colors duration-300"
-                >
-                    Volver al inicio
-                </Link>
+            <div className="w-full max-w-[1400px] mx-auto px-8 py-20 text-center">
+                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Tema no encontrado</h2>
+                 <Link to="/" className="text-black underline">Volver al inicio</Link>
             </div>
         )
     }
 
+    // Determinar si es un artículo o un tema regular
+    const isArticle = sectionId === 'articles' || topic.content?.sections
+
     return (
-        <TopicDetail
-            topic={topic}
-            onBack={() => window.history.back()}
-            onHome={() => window.location.href = '/'}
-            renderAsPage={true}
-            sectionId={sectionId}
-        />
+        <>
+            {isArticle ? (
+                <ArticleDetail article={topic} />
+            ) : (
+                <TopicDetail
+                    topic={topic}
+                    onBack={() => window.history.back()}
+                    onHome={() => window.location.href = '/'}
+                    renderAsPage={true}
+                    sectionId={sectionId}
+                />
+            )}
+        </>
     )
 }
 

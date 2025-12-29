@@ -1,6 +1,26 @@
 import { Link, useParams } from 'react-router-dom'
+import SectionIcon from '../components/SectionIcon'
 import TopicCard from '../components/TopicCard'
 import { getSectionById } from '../data/sections/sectionsConfig'
+
+// Mapeo de colores pastel para coincidir con HomePage
+const SECTION_PASTEL_COLORS = {
+    blue: 'bg-[#B2EBF2]',
+    emerald: 'bg-[#C8E6C9]',
+    purple: 'bg-[#E1BEE7]',
+    amber: 'bg-[#FFF59D]',
+    red: 'bg-[#FFCCBC]',
+    indigo: 'bg-[#B2DFDB]',
+}
+
+const TEXT_COLORS = {
+    blue: 'text-cyan-900',
+    emerald: 'text-emerald-900',
+    purple: 'text-purple-900',
+    amber: 'text-amber-900',
+    red: 'text-red-900',
+    indigo: 'text-teal-900'
+}
 
 const SectionPage = () => {
     const { sectionId } = useParams()
@@ -8,104 +28,53 @@ const SectionPage = () => {
 
     if (!section) {
         return (
-            <div className="text-center py-16">
-                <div className="text-6xl mb-6">❌</div>
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                    Sección no encontrada
-                </h2>
-                <p className="text-gray-600 mb-8">
-                    La sección que buscas no existe.
-                </p>
-                <Link
-                    to="/"
-                    className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-medium transition-colors duration-300"
-                >
-                    Volver al inicio
-                </Link>
+            <div className="w-full max-w-[1400px] mx-auto px-8 py-20 text-center">
+                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Sección no encontrada</h2>
+                 <Link to="/" className="text-black underline">Volver al inicio</Link>
             </div>
         )
     }
 
-    if (section.topics.length === 0) {
-        return (
-            <div className="text-center py-16">
-                <div className="text-6xl mb-6">🚧</div>
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                    {section.title}
-                </h2>
-                <p className="text-gray-600 mb-8">
-                    Esta sección está en desarrollo. ¡Pronto estará disponible!
-                </p>
-                <Link
-                    to="/"
-                    className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-medium transition-colors duration-300"
-                >
-                    Volver al inicio
-                </Link>
-            </div>
-        )
-    }
-
-    // Función para obtener el estilo del header basado en el color de la sección
-    const getHeaderStyle = (color) => {
-        const gradients = {
-            blue: 'bg-gradient-to-r from-blue-600 to-blue-700',
-            emerald: 'bg-gradient-to-r from-emerald-600 to-emerald-800',
-            purple: 'bg-gradient-to-r from-purple-600 to-purple-800',
-            amber: 'bg-gradient-to-r from-amber-600 to-amber-700',
-            red: 'bg-gradient-to-r from-red-600 to-red-700'
-        }
-        return gradients[color] || 'bg-gradient-to-r from-gray-600 to-gray-700'
-    }
+    const pastelBg = SECTION_PASTEL_COLORS[section.color] || 'bg-gray-100'
+    const textColor = TEXT_COLORS[section.color] || 'text-gray-900'
 
     return (
-        <>
-            {/* Header de sección */}
-            <div className="mb-8">
-                <div className={`${getHeaderStyle(section.color)} rounded-2xl p-8 text-white shadow-xl`}>
-                    <div className="flex items-center gap-4 mb-4">
-                        <div className="text-6xl">{section.icon}</div>
-                        <div>
-                            <h1 className="text-3xl font-bold">{section.title}</h1>
-                            <p className="text-xl opacity-90">{section.subtitle}</p>
-                            <p className="opacity-80">{section.description}</p>
-                        </div>
+        <div className="w-full max-w-[1400px] mx-auto px-8 pb-20">
+            {/* Minimal Header */}
+            <div className={`mt-8 mb-12 rounded-[2.5rem] p-12 ${pastelBg} flex flex-col md:flex-row items-start md:items-center gap-8`}>
+                <div className="text-6xl text-gray-800 opacity-80">
+                    {/* Render icon if it was a component, currently it is a string name for SectionIcon */}
+                    {/* We can use SectionIcon here if imported, for now just hiding or simplifing */}
+                    <div className="opacity-40">
+                         <SectionIcon iconName={section.icon} className="text-8xl text-black" />
                     </div>
-
-                    {/* Stats de la sección */}
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
-                        <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 text-center">
-                            <div className="text-2xl font-bold">{section.stats.topics}</div>
-                            <div className="text-sm opacity-80">Temas</div>
-                        </div>
-                        <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 text-center">
-                            <div className="text-2xl font-bold">{section.stats.scriptures}</div>
-                            <div className="text-sm opacity-80">Escrituras</div>
-                        </div>
-                        <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 text-center">
-                            <div className="text-2xl font-bold">{section.stats.activities}</div>
-                            <div className="text-sm opacity-80">Actividades</div>
-                        </div>
-                        <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 text-center">
-                            <div className="text-2xl font-bold">{section.stats.questions}</div>
-                            <div className="text-sm opacity-80">Preguntas</div>
-                        </div>
-                    </div>
+                </div>
+                <div>
+                    <h1 className={`text-4xl md:text-5xl font-bold ${textColor} mb-3`}>
+                        {section.title}
+                    </h1>
+                    <p className={`text-xl ${textColor} opacity-80 max-w-2xl`}>
+                        {section.subtitle}
+                    </p>
                 </div>
             </div>
 
             {/* Topics Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-                {section.topics.map((topic) => (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {section.topics.map((topic, index) => (
                     <Link
                         key={topic.id}
                         to={`/section/${sectionId}/topic/${topic.id}`}
                     >
-                        <TopicCard topic={topic} />
+                        <TopicCard
+                            topic={topic}
+                            color={section.color}
+                            index={index}
+                        />
                     </Link>
                 ))}
             </div>
-        </>
+        </div>
     )
 }
 
