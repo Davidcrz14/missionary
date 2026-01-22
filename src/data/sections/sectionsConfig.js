@@ -66,21 +66,22 @@ export const sections = [
       questions: "32+",
     },
   },
-  {
-    id: "skills",
-    title: "E. Habilidades Misionales",
-    subtitle: "Enseñar con poder",
-    description: "Herramientas prácticas para enseñar el evangelio",
-    icon: "wand-magic-sparkles", // Habilidades - El "arte" de enseñar
-    color: "red",
-    topics: missionarySkills,
-    stats: {
-      topics: 8,
-      scriptures: "15+",
-      activities: "60+",
-      questions: "35+",
-    },
-  },
+  // TEMPORALMENTE DESACTIVADO - Habilidades Misionales
+  // {
+  //   id: "skills",
+  //   title: "E. Habilidades Misionales",
+  //   subtitle: "Enseñar con poder",
+  //   description: "Herramientas prácticas para enseñar el evangelio",
+  //   icon: "wand-magic-sparkles", // Habilidades - El "arte" de enseñar
+  //   color: "red",
+  //   topics: missionarySkills,
+  //   stats: {
+  //     topics: 8,
+  //     scriptures: "15+",
+  //     activities: "60+",
+  //     questions: "35+",
+  //   },
+  // },
   {
     id: "articles",
     title: "F. Artículos",

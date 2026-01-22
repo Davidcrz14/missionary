@@ -28,7 +28,7 @@ const ArticleDetail = ({ article }) => {
                             })}
                         </span>
                         {article.readTime && (
-                           <span>• {article.readTime}</span>
+                            <span>• {article.readTime}</span>
                         )}
                     </div>
 
@@ -101,7 +101,7 @@ const ArticleDetail = ({ article }) => {
                 {article.content?.conclusion && (
                     <div className="mt-12 p-8 bg-gray-50 rounded-3xl">
                         <h3 className="text-xl font-bold text-gray-900 mb-4">
-                            En resumen
+                            The End
                         </h3>
                         <p className="text-gray-800 leading-relaxed text-lg">
                             {article.content.conclusion}
