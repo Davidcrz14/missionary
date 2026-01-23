@@ -1,3 +1,4 @@
+import ReactMarkdown from 'react-markdown';
 
 const ArticleDetail = ({ article }) => {
     if (!article) {
@@ -7,6 +8,80 @@ const ArticleDetail = ({ article }) => {
             </div>
         );
     }
+
+    // Componentes personalizados para ReactMarkdown
+    const markdownComponents = {
+        // Negritas
+        strong: ({ children }) => (
+            <strong className="text-black font-semibold">{children}</strong>
+        ),
+        // Énfasis/Itálicas
+        em: ({ children }) => (
+            <em className="italic text-gray-700">{children}</em>
+        ),
+        // Blockquotes (citas)
+        blockquote: ({ children }) => (
+            <blockquote className="border-l-4 border-[#B2DFDB] pl-6 py-3 my-6 italic text-gray-600 bg-gray-50 rounded-r-lg">
+                {children}
+            </blockquote>
+        ),
+        // Listas no ordenadas
+        ul: ({ children }) => (
+            <ul className="my-4 space-y-2">{children}</ul>
+        ),
+        // Listas ordenadas
+        ol: ({ children }) => (
+            <ol className="my-4 space-y-2 list-decimal list-inside">{children}</ol>
+        ),
+        // Items de lista
+        li: ({ children }) => (
+            <li className="ml-6 pl-2 text-gray-700 marker:text-gray-400">
+                {children}
+            </li>
+        ),
+        // Párrafos
+        p: ({ children }) => (
+            <p className="mb-4 last:mb-0">{children}</p>
+        ),
+        // Enlaces
+        a: ({ href, children }) => (
+            <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 underline"
+            >
+                {children}
+            </a>
+        ),
+        // Código inline
+        code: ({ children }) => (
+            <code className="bg-gray-100 px-1.5 py-0.5 rounded text-sm font-mono text-gray-800">
+                {children}
+            </code>
+        ),
+    };
+
+    // Componentes para la introducción (texto más grande)
+    const introMarkdownComponents = {
+        ...markdownComponents,
+        p: ({ children }) => (
+            <p className="mb-6 last:mb-0">{children}</p>
+        ),
+    };
+
+    // Componentes para la conclusión
+    const conclusionMarkdownComponents = {
+        ...markdownComponents,
+        strong: ({ children }) => (
+            <strong className="text-gray-900 font-semibold">{children}</strong>
+        ),
+        blockquote: ({ children }) => (
+            <blockquote className="border-l-4 border-gray-300 pl-6 py-3 my-4 italic text-gray-700 bg-gray-100/50 rounded-r-lg">
+                {children}
+            </blockquote>
+        ),
+    };
 
     return (
         <div className="max-w-4xl mx-auto">
@@ -64,13 +139,10 @@ const ArticleDetail = ({ article }) => {
             <div className="bg-white rounded-[2rem] p-8 md:p-12 mb-10 space-y-8">
                 {/* Introducción */}
                 {article.content?.introduction && (
-                    <div className="text-xl text-gray-800 leading-relaxed font-serif">
-                        <div dangerouslySetInnerHTML={{
-                            __html: article.content.introduction
-                                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong> ')
-                                .replace(/\n\n/g, '<br/><br/>')
-                                .replace(/\n/g, ' ')
-                        }} />
+                    <div className="text-xl text-gray-800 leading-relaxed font-serif prose prose-lg max-w-none">
+                        <ReactMarkdown components={introMarkdownComponents}>
+                            {article.content.introduction}
+                        </ReactMarkdown>
                     </div>
                 )}
 
@@ -83,17 +155,11 @@ const ArticleDetail = ({ article }) => {
                             </span>
                             {section.heading}
                         </h2>
-                        <div
-                            className="text-gray-700 leading-loose text-lg"
-                            dangerouslySetInnerHTML={{
-                                __html: section.content
-                                    .replace(/\*\*(.*?)\*\*/g, '<strong class="text-black font-semibold">$1</strong> ')
-                                    .replace(/> (.*?)$/gm, '<blockquote class="border-l-4 border-[#B2DFDB] pl-6 py-2 my-6 italic text-gray-600 bg-gray-50 rounded-r-lg">$1</blockquote>')
-                                    .replace(/^- (.*?)$/gm, '<li class="ml-6 mb-3 list-disc pl-2 marker:text-gray-400">$1</li>')
-                                    .replace(/\n\n/g, '<br/><br/>')
-                                    .replace(/\n/g, ' ')
-                            }}
-                        />
+                        <div className="text-gray-700 leading-loose text-lg prose prose-lg max-w-none">
+                            <ReactMarkdown components={markdownComponents}>
+                                {section.content}
+                            </ReactMarkdown>
+                        </div>
                     </div>
                 ))}
 
@@ -101,11 +167,13 @@ const ArticleDetail = ({ article }) => {
                 {article.content?.conclusion && (
                     <div className="mt-12 p-8 bg-gray-50 rounded-3xl">
                         <h3 className="text-xl font-bold text-gray-900 mb-4">
-                            The End
+                            Conclusión
                         </h3>
-                        <p className="text-gray-800 leading-relaxed text-lg">
-                            {article.content.conclusion}
-                        </p>
+                        <div className="text-gray-800 leading-relaxed text-lg prose prose-lg max-w-none">
+                            <ReactMarkdown components={conclusionMarkdownComponents}>
+                                {article.content.conclusion}
+                            </ReactMarkdown>
+                        </div>
                     </div>
                 )}
             </div>

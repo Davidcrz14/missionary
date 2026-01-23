@@ -2897,6 +2897,353 @@ Estos atributos divinos raras veces se desarrollan en la comodidad.`,
 
     footer: "Escrito con 🤍",
   },
+  {
+    id: 9,
+    title: "¿Por qué hacemos obras por los muertos si la Biblia prohíbe consultar a los espíritus?",
+    subtitle: "La diferencia entre necromancia y la obra vicaria del templo",
+    date: "2026-01-22",
+    author: "David Cruz",
+    category: "Doctrina",
+    readTime: "20 min",
+    featured: true,
+    description:
+      "Una respuesta doctrinal a dos preguntas frecuentes: ¿No viola la obra del templo la prohibición bíblica contra consultar a los muertos? Y si la salvación es por gracia, ¿por qué necesitan bautismo quienes nunca conocieron el evangelio?",
+
+    content: {
+      introduction:
+        "Esta semana me comentaron algo que me hizo reflexionar profundamente. Una persona, con genuina curiosidad, me preguntó: \"Si la Biblia prohíbe consultar a los muertos, ¿por qué ustedes hacen bautismos y otras cosas por ellos en el templo? ¿No es eso exactamente lo que Deuteronomio condena?\"\n\nY luego añadió: \"Además, la salvación viene por gracia, ¿no? Si Dios salva a todos por Su gracia, ¿por qué necesitarían bautismo quienes nunca conocieron el evangelio? Dios es justo, Él no los condenaría por algo que nunca supieron.\"\n\nSon preguntas completamente válidas, y me di cuenta de que muchos, incluso algunos miembros de la Iglesia, no tienen del todo claro cómo responderlas.\n\n**La respuesta rápida es:** no, la obra del templo no es lo que la Biblia prohíbe, y segundo, la gracia no elimina la necesidad de las ordenanzas que Dios mandó. Pero estas respuestas merecen un análisis mucho más profundo, porque aquí hay doctrina hermosa que vale la pena entender.",
+
+      sections: [
+        {
+          heading: "Lo que Dios realmente prohíbe: Necromancia",
+          content: `Deuteronomio 18:10-12 es claro cuando dice que no sea hallado en ti quien haga pasar a su hijo o a su hija por el fuego, ni quien practique adivinación, ni agorero, ni sortílego, ni hechicero, ni encantador, ni adivino, ni mago, ni quien consulte a los muertos, porque es abominación para con Jehová cualquiera que hace estas cosas. Esto suena fuerte, ¿verdad? Y la pregunta legítima es: ¿no estamos "consultando a los muertos" cuando hacemos obra del templo por ellos?
+
+**La respuesta es no, y aquí está la diferencia fundamental que cambia todo el contexto de esta conversación.**
+
+La necromancia en tiempos bíblicos involucraba:
+- Invocar espíritus de muertos mediante médiums o espiritistas para recibir mensajes
+- Buscar conocimiento oculto que solo Dios debe revelar
+- Practicar adivinación contactando a los difuntos para predecir el futuro
+- Participar en adoración pagana donde se hacían pactos con espíritus para obtener poder
+
+El contexto histórico es importante porque estas prácticas estaban profundamente ligadas a la idolatría cananea, donde se creía que los muertos podían revelar secretos divinos o manipular eventos futuros. Dios prohibió esto porque **usurpa su soberanía** al reclamar autoridad que solo Él tiene para revelar verdad, **abre puertas a engaños satánicos** ya que los "espíritus" contactados no eran los muertos reales sino demonios disfrazados, y **corrompe la adoración verdadera** al reemplazar la dependencia en Dios por dependencia en poderes ocultos.
+
+**Lo que hacemos en los templos SUD es completamente diferente** porque no intentamos comunicarnos con los muertos ni hay sesiones espiritistas, médiums o canalización de espíritus; no buscamos conocimiento de ellos sino que actuamos bajo autoridad del sacerdocio restaurado según mandato divino; no invocamos ni "llamamos" a los muertos sino que realizamos ordenanzas físicas por representación; y no practicamos adivinación sino que investigamos genealogía mediante registros históricos verificables.
+
+La obra del templo es un acto de servicio y amor, no de comunicación con muertos. Es como si tu hermano estuviera en la cárcel y tú pagaras su fianza: no estás "consultándolo" para obtener algo de él, estás sirviéndolo porque lo amas.`,
+        },
+        {
+          heading: "Evidencia bíblica: Pablo y los cristianos primitivos lo practicaban",
+          content: `Aquí viene algo que muchos cristianos no saben, o prefieren ignorar. En **1 Corintios 15:29** Pablo escribió algo fascinante:
+
+> "De otro modo, ¿qué harán los que se bautizan por los muertos, si en ninguna manera los muertos resucitan? ¿Por qué, pues, se bautizan por los muertos?"
+
+Este versículo me fascina porque Pablo lo usa como argumento a favor de la resurrección. Piénsalo bien: si Pablo considerara que el bautismo por los muertos era herético, ¿lo usaría para defender una doctrina fundamental del cristianismo? Claramente no.
+
+Y aquí está lo interesante: **la mayoría de los eruditos bíblicos modernos, incluso no-SUD, reconocen que Pablo se refiere a una práctica literal en la iglesia primitiva.**
+
+**Reginald St. John Parry**, un erudito anglicano, escribió que "el sentido claro y necesario de las palabras implica la existencia de una práctica de bautismo vicario en Corinto."
+
+**Gerhard Kittel**, en su famoso *Diccionario Teológico del Nuevo Testamento*, afirmó que "todas las interpretaciones que buscan evadir el bautismo vicario por los muertos son engañosas."
+
+**Krister Stendahl**, quien fue Obispo luterano de Estocolmo, concluyó que "una vez que se sienten menos las presiones teológicas de desarrollos posteriores, el texto parece hablar con suficiente claridad sobre una práctica dentro de la Iglesia de bautismo vicario por los muertos."
+
+Esto no es doctrina SUD interpretando las Escrituras de manera conveniente. Es **consenso académico** entre eruditos que dedicaron sus vidas al estudio del griego koiné y el contexto histórico del Nuevo Testamento.
+
+La evidencia histórica muestra que el bautismo por los muertos continuó practicándose en algunas comunidades cristianas hasta el siglo V d.C. **Tertuliano** en el siglo II-III menciona la práctica entre los marcionitas, **Ambrosiaster** en el siglo IV la discute como algo conocido, y **Epifanio de Salamis** en el siglo IV la condena entre ciertos grupos.
+
+Ahora, es cierto que grupos heréticos la practicaron, pero eso no invalida la ordenanza porque esos mismos grupos también celebraban la Santa Cena, y nadie rechaza la Santa Cena por eso. Lo que sucedió fue la Gran Apostasía donde las ordenanzas originales se perdieron o corrompieron, y con ellas, la comprensión correcta de la obra vicaria que Cristo mismo estableció.`,
+        },
+        {
+          heading: "Cristo predicó a los muertos: ¿Por qué?",
+          content: `Si realmente no hubiera esperanza para quienes mueren sin conocer el evangelio, ¿por qué Cristo fue a predicarles? Esta pregunta me parece absolutamente fundamental para entender toda la doctrina.
+
+En **1 Pedro 3:18-20** leemos:
+
+> "Cristo padeció una sola vez por los pecados, siendo a la verdad muerto en la carne pero vivificado en espíritu, en el cual también fue y predicó a los espíritus encarcelados, los que en otro tiempo desobedecieron."
+
+Y luego en **1 Pedro 4:6** dice:
+
+> "Por esto también ha sido predicado el evangelio a los muertos, para que sean juzgados en carne según los hombres pero vivan en espíritu según Dios."
+
+Pensemos en esto lógicamente: Cristo predicó el evangelio a los muertos durante los tres días entre Su muerte y resurrección. Y si los muertos pueden escuchar y aceptar el evangelio en el mundo de los espíritus, y si Cristo mandó que "el que no naciere de agua y del Espíritu no puede entrar en el reino de Dios" (Juan 3:5), entonces **debe haber una forma de completar las ordenanzas físicas que requieren un cuerpo.**
+
+La obra vicaria es la respuesta lógica a este dilema. No es casualidad que el presidente Joseph F. Smith recibió la visión de la redención de los muertos (ahora conocemos como Doctrina y Convenios 138) mientras meditaba precisamente sobre estos versículos de Pedro. En esa visión, vio cómo Cristo organizó a los espíritus justos para predicar a aquellos en la prisión espiritual, estableciendo un sistema perfectamente diseñado donde **nadie queda excluido de la oportunidad de salvación por circunstancias fuera de su control.**`,
+        },
+        {
+          heading: "\"Pero la salvación es solo por gracia, no se necesitan ordenanzas\"",
+          content: `Esta es probablemente la objeción más común que escucho, y viene principalmente de la tradición protestante de "sola gratia" (solo gracia) y "sola fide" (solo fe). Y mira, tienen razón en algo importante: **la salvación es por gracia.** Sin la Expiación de Cristo, nada de lo que hagamos importaría. Estamos completamente de acuerdo en eso. Sin Cristo somos nada.
+
+Pero aquí está el malentendido que cambia toda la conversación: **la gracia no elimina las ordenanzas que Dios mandó.** Esto es crucial para entender por qué la obra del templo no contradice la doctrina de la gracia sino que la complementa.
+
+**Mateo 3:13-17** registra que Jesús, el único ser sin pecado, fue bautizado. Y cuando Juan el Bautista protestó diciendo "yo necesito ser bautizado por ti, ¿y tú vienes a mí?", Cristo respondió: "Deja ahora, porque así conviene que **cumplamos toda justicia.**"
+
+Si Cristo, quien no necesitaba perdón de pecados, fue bautizado para "cumplir toda justicia", ¿cómo podemos decir que el bautismo no es necesario para nosotros que sí necesitamos perdón?
+
+Los mandamientos de Cristo son claros:
+- **Marcos 16:16**: "El que creyere y fuere bautizado será salvo."
+- **Juan 3:5**: "El que no naciere de agua y del Espíritu no puede entrar en el reino de Dios."
+- **Hechos 2:38**: "Arrepentíos, y bautícese cada uno de vosotros para perdón de los pecados."
+
+Estos no son sugerencias opcionales ni adiciones humanas al evangelio. Son mandamientos del Salvador que establecen el camino que Él mismo caminó primero para mostrarnos el ejemplo.
+
+**Aquí está el problema lógico que enfrentan quienes rechazan la obra vicaria**, y es una paradoja teológica que no tiene solución satisfactoria sin la doctrina restaurada:
+
+Si aceptamos que el bautismo es mandamiento de Dios (Mateo 28:19), y que Cristo declaró que es necesario para salvación (Juan 3:5), y que billones de personas han muerto sin conocer a Cristo, entonces solo hay dos opciones posibles:
+
+1. **O Dios condena eternamente a billones** que nunca tuvieron oportunidad justa, lo cual contradice la justicia y misericordia divinas.
+2. **O Dios provee una forma** para que reciban las ordenanzas después de la muerte, que es precisamente la doctrina SUD de obra vicaria.
+
+No hay tercera opción que mantenga tanto la justicia de Dios como la necesidad de las ordenanzas que Él mismo mandó.
+
+El erudito bíblico **Everett Ferguson**, quien no es miembro de nuestra iglesia, concluyó en su obra académica sobre el bautismo cristiano primitivo que "aunque diferentes autores tenían sus descripciones favoritas del bautismo, hay un acuerdo notable sobre los beneficios recibidos, especialmente el perdón de pecados y el don del Espíritu Santo, y que estos están presentes ya en los textos del Nuevo Testamento."`,
+        },
+        {
+          heading: "La justicia perfecta de Dios",
+          content: `Una de las cosas más hermosas de la doctrina de la obra vicaria es lo que revela sobre el carácter de Dios. Esto me emociona profundamente cada vez que lo pienso.
+
+Piensa en esto por un momento:
+- El niño que nació en el siglo I en Jerusalén y escuchó a Cristo personalmente
+- El hombre que vivió en el siglo X en China sin nunca escuchar el nombre de Jesús
+- La mujer que vivió en el siglo XXI rechazando el evangelio porque se lo presentaron de manera ofensiva
+
+**Todos tendrán la misma oportunidad** de escuchar el evangelio puro, aceptarlo o rechazarlo libremente, y recibir las ordenanzas necesarias.
+
+El presidente **Spencer W. Kimball** enseñó que "la salvación de toda la familia eterna de Dios es la meta hacia la cual hemos estado trabajando desde el principio." Esta declaración resume perfectamente la visión divina.
+
+Dios no está tratando de excluir a la mayor cantidad posible de personas como si fuera un juez severo buscando razones para condenar. Está **trabajando incansablemente para incluir a todos** los que estén dispuestos a venir a Cristo, y la obra del templo es el mecanismo divino para lograrlo.`,
+        },
+        {
+          heading: "Albedrío: Nadie es forzado",
+          content: `Hay un malentendido común que necesito aclarar. Algunas personas creen que cuando hacemos bautismos por los muertos, estamos "bautizando a esas personas en la Iglesia" sin su consentimiento. **Esto es completamente falso.**
+
+La Iglesia oficialmente enseña que "algunas personas han malentendido que cuando se realizan bautismos por los muertos, las personas fallecidas son bautizadas en la Iglesia contra su voluntad, pero este no es el caso porque **cada individuo tiene albedrío**, o el derecho de elegir, y la validez de un bautismo por proxy depende completamente de que la persona fallecida lo acepte."
+
+Los nombres no se añaden a los registros de la Iglesia como miembros cuando se realiza la ordenanza. La ordenanza simplemente **ofrece la oportunidad** mientras que el difunto decide en el mundo de los espíritus si la acepta o rechaza.
+
+Es como si le entregas a alguien un regalo envuelto: puedes ofrecérselo con amor, pero él decide si lo abre o no. Nadie puede forzar a otro a aceptar un regalo que no quiere.`,
+        },
+        {
+          heading: "¿Y qué pasa con quienes nunca conocieron el evangelio?",
+          content: `Esta pregunta me la hice durante mucho tiempo, especialmente pensando en mis propios antepasados que nunca fueron miembros de la Iglesia. La respuesta está en la visión del presidente Joseph F. Smith registrada en **Doctrina y Convenios 138**.
+
+En esa visión reveladora, aprendemos que Cristo organizó misioneros en el mundo de los espíritus donde:
+- Espíritus justos **predican a aquellos en la prisión espiritual**
+- Se les enseña el evangelio completo (no es una "segunda oportunidad inferior" sino la **primera oportunidad real** para quienes nunca la tuvieron en vida)
+- Tienen su **albedrío completo** para aceptar o rechazar libremente lo que se les enseña
+- Las ordenanzas se realizan por ellos en templos aquí en la tierra (donde entra nuestra responsabilidad como santos vivientes)
+
+Es un sistema perfectamente justo y perfectamente misericordioso que refleja el carácter de un Dios que ama a todos Sus hijos por igual, sin importar cuándo o dónde nacieron. **El accidente geográfico o temporal de tu nacimiento no determina tu destino eterno cuando Dios está a cargo.**`,
+        },
+        {
+          heading: "Gracia Y ordenanzas: No son opuestos",
+          content: `Déjenme ser absolutamente claro sobre algo que a veces se malentiende incluso entre nosotros: **la gracia es completamente esencial.** Sin la Expiación infinita de Jesucristo, nada de lo que hagamos tendría valor eterno. Nuestras mejores obras serían como "trapos de inmundicia" (Isaías 64:6) sin Cristo.
+
+Pero **la gracia opera a través de ordenanzas, no en oposición a ellas.** Este concepto es fundamental para entender la restauración.
+
+Es como la electricidad: la gracia es el poder divino que fluye desde Dios, mientras que las ordenanzas son los cables conductores que Él estableció. No puedes tener luz sin ambos. El poder de Dios fluye hacia nosotros a través de los canales que Él estableció con propósito y diseño.
+
+El élder **D. Todd Christofferson** enseñó que "las ordenanzas son actos sagrados que tienen significado espiritual porque en las ordenanzas del sacerdocio se manifiesta el poder de la divinidad."
+
+No hacemos ordenanzas para "ganar" la salvación como si fuéramos empleados acumulando un cheque de pago espiritual. Las hacemos porque **Dios las mandó** como parte del proceso de ser perfeccionados en Cristo, santificados por Su gracia, y transformados en nuevas criaturas.
+
+Las ordenanzas son el medio que Dios escogió para administrar Su gracia. **No son obstáculos a la gracia sino los canales divinos a través de los cuales fluye.**`,
+        },
+        {
+          heading: "Salvadores en el Monte de Sión",
+          content: `Hay una profecía hermosa en **Abdías 1:21** que dice:
+
+> "Y subirán salvadores al monte de Sión para juzgar al monte de Esaú; y el reino será de Jehová."
+
+La pregunta es: ¿quiénes son estos "salvadores" en plural?
+
+**Somos nosotros.** Cada vez que vamos al templo y realizamos ordenanzas por los muertos, nos convertimos en instrumentos salvadores en las manos de Dios. No estamos salvando a nadie por nuestro propio poder (solo Cristo salva), pero estamos **participando en Su obra de salvación**, prestando nuestros cuerpos para que otros puedan recibir lo que no pueden recibir por sí mismos debido a que ya no tienen cuerpos mortales para ser bautizados.
+
+Y hermano, cuando lo pones en esa perspectiva, **¿hay algo más hermoso que eso?**
+
+Imagina el momento en el mundo venidero cuando conozcas a aquellos por quienes hiciste la obra. Imagina su gratitud cuando te abracen y te digan "gracias por no olvidarnos." Imagina las historias que compartirán contigo sobre las familias que se reunieron y las cadenas generacionales que se rompieron porque tú prestaste dos horas de tu sábado para ir al templo.
+
+Eso no es "consultar a los muertos" de ninguna manera. **Eso es amor puro de Cristo en acción**, manifestándose a través de siervos imperfectos pero dispuestos.`,
+        },
+        {
+          heading: "Entonces, ¿por qué hacemos obras por los muertos?",
+          content: `Porque Dios es **perfectamente justo** y **perfectamente misericordioso**. Porque Cristo abrió las puertas de la prisión espiritual y proveyó un camino para que todos, no solo algunos privilegiados, tengan oportunidad real de salvación.
+
+Hacemos esta obra porque:
+- El bautismo y otras ordenanzas **no son opcionales** según las enseñanzas claras de Cristo
+- El amor **no termina con la muerte** y las familias son eternas
+- Cuando entendemos esto correctamente, no estamos violando ningún mandamiento bíblico sino cumpliendo la misión de Cristo de predicar "libertad a los cautivos" (Lucas 4:18)
+
+**La obra del templo no contradice la Biblia, la cumple.** No niega la gracia, la magnifica. No fuerza a nadie, ofrece libertad a todos.
+
+Y cuando llegue el día en que crucemos el velo y veamos el alcance completo de lo que Dios ha hecho por Sus hijos (todos Sus hijos, sin excepción, no solo los que tuvieron la suerte de nacer en el momento y lugar correctos), creo que nos arrodillaremos con lágrimas de gratitud por un Dios tan increíblemente justo, tan infinitamente misericordioso, tan perfectamente amoroso que diseñó un plan donde **nadie queda atrás por circunstancias fuera de su control.**
+
+Ese es el Dios al que servimos. Ese es el Cristo al que adoramos. Y esa es la razón por la que hacemos obras por los muertos con gozo y gratitud.`,
+        },
+      ],
+
+      conclusion:
+        "La diferencia entre la necromancia prohibida en la Biblia y la obra vicaria del templo es como la diferencia entre un ladrón forzando una cerradura y una persona usando la llave que le fue entregada. Ambos abren puertas, pero uno lo hace en rebelión contra el dueño de la casa, mientras el otro lo hace con su plena autorización y bajo su dirección.\n\nNo consultamos a los muertos para obtener poder o conocimiento. Les servimos porque los amamos. No buscamos comunicación con espíritus. Realizamos ordenanzas físicas bajo la autoridad del sacerdocio restaurado. No practicamos adivinación. Investigamos genealogía en registros históricos y ofrecemos las bendiciones del evangelio a quienes nunca las tuvieron.\n\nY en cuanto a la gracia: sí, somos salvos por gracia. Absolutamente. Pero la gracia de Cristo fluye a través de los canales que Él mismo estableció. Las ordenanzas no son obstáculos a la gracia sino los medios por los cuales la gracia nos transforma.\n\nEse es el Dios al que servimos, y esa es la razón por la que hacemos obras por los muertos con gozo y gratitud.",
+    },
+
+    keyScriptures: [
+      {
+        reference: "Deuteronomio 18:10-12",
+        text: "No sea hallado en ti quien... consulte a los muertos, porque es abominación para con Jehová.",
+        context: "La prohibición bíblica contra la necromancia, no contra la obra vicaria.",
+      },
+      {
+        reference: "1 Corintios 15:29",
+        text: "De otro modo, ¿qué harán los que se bautizan por los muertos?",
+        context: "Pablo menciona el bautismo por los muertos como práctica cristiana primitiva.",
+      },
+      {
+        reference: "1 Pedro 3:18-20",
+        text: "Fue y predicó a los espíritus encarcelados, los que en otro tiempo desobedecieron.",
+        context: "Cristo predicó el evangelio a los muertos entre Su muerte y resurrección.",
+      },
+      {
+        reference: "1 Pedro 4:6",
+        text: "Por esto también ha sido predicado el evangelio a los muertos.",
+        context: "El evangelio es predicado a los muertos para que puedan ser juzgados justamente.",
+      },
+      {
+        reference: "Juan 3:5",
+        text: "El que no naciere de agua y del Espíritu, no puede entrar en el reino de Dios.",
+        context: "La necesidad universal del bautismo, razón de la obra vicaria.",
+      },
+      {
+        reference: "Mateo 3:15",
+        text: "Deja ahora, porque así conviene que cumplamos toda justicia.",
+        context: "Cristo fue bautizado para cumplir toda justicia, estableciendo el ejemplo.",
+      },
+      {
+        reference: "Abdías 1:21",
+        text: "Y subirán salvadores al monte de Sión.",
+        context: "Profecía sobre quienes realizan obra vicaria en los templos.",
+      },
+      {
+        reference: "D&C 138",
+        text: "La visión de la redención de los muertos.",
+        context: "Revelación del presidente Joseph F. Smith sobre la obra en el mundo de los espíritus.",
+      },
+    ],
+
+    reflectionQuestions: [
+      "¿He entendido la diferencia fundamental entre la necromancia (buscar poder de los muertos) y la obra vicaria (servir a los muertos)?",
+      "¿Comprendo que la gracia de Cristo opera a través de las ordenanzas que Él estableció, no en oposición a ellas?",
+      "¿Reconozco que la obra del templo refleja la justicia perfecta de un Dios que no condena a nadie por circunstancias fuera de su control?",
+      "¿Estoy participando activamente en la obra de historia familiar y ordenanzas del templo por mis antepasados?",
+      "¿Puedo explicar con claridad y amor a otros por qué la obra por los muertos no contradice la Biblia?",
+    ],
+
+    relatedTopics: [
+      { sectionId: "principles", topicId: 5 }, // Bautismo
+      { sectionId: "principles", topicId: 2 }, // La Expiación
+      { sectionId: "principles", topicId: 3 }, // Fe en Jesucristo
+    ],
+
+    tags: [
+      "obra por los muertos",
+      "bautismo vicario",
+      "necromancia",
+      "templo",
+      "gracia",
+      "ordenanzas",
+      "1 Corintios 15:29",
+      "1 Pedro 3:18-20",
+      "D&C 138",
+      "historia familiar",
+      "salvadores en el monte de Sión",
+      "justicia de Dios",
+      "Deuteronomio 18",
+    ],
+
+    sources: [
+      {
+        title: "Bautismos por los muertos - Temas del Evangelio",
+        url: "https://www.churchofjesuschrist.org/study/manual/gospel-topics/baptisms-for-the-dead?lang=spa",
+        type: "Doctrina Oficial",
+      },
+      {
+        title: "FAIR Latter-day Saints - Proxy Baptism",
+        url: "https://www.fairlatterdaysaints.org/answers/Baptism_for_the_dead",
+        type: "Apologética",
+      },
+      {
+        title: "Why Are People Baptized for the Dead? - Book of Mormon Central",
+        url: "https://knowhy.bookofmormoncentral.org/knowhy/why-are-people-baptized-for-the-dead",
+        type: "Estudio Académico",
+      },
+      {
+        title: "Baptism for the Dead in Early Christianity",
+        url: "https://archive.bookofmormoncentral.org/content/baptism-dead-early-christianity-0",
+        type: "Historia",
+      },
+      {
+        title: "Theological Underpinnings of Baptism for the Dead - BYU Studies",
+        url: "https://byustudies.byu.edu/article/theological-underpinnings-of-baptism-for-the-dead",
+        type: "Académico",
+      },
+      {
+        title: "1 Pedro 3 - Escrituras",
+        url: "https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/3?lang=spa",
+        type: "Escritura",
+      },
+      {
+        title: "D&C 138 - La Visión de la Redención de los Muertos",
+        url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=spa",
+        type: "Escritura",
+      },
+      {
+        title: "Enseñanzas de Joseph F. Smith - Capítulo 46",
+        url: "https://www.churchofjesuschrist.org/study/manual/teachings-joseph-f-smith/chapter-46?lang=spa",
+        type: "Enseñanzas de Profetas",
+      },
+      {
+        title: "Ordenanzas y Convenios - Liahona",
+        url: "https://www.churchofjesuschrist.org/study/ensign/2001/08/ordinances-and-covenants?lang=eng",
+        type: "Revista Oficial",
+      },
+      {
+        title: "The Spirit World, Our Next Home - Ensign",
+        url: "https://www.churchofjesuschrist.org/study/ensign/1977/01/the-spirit-world-our-next-home?lang=eng",
+        type: "Revista Oficial",
+      },
+      {
+        title: "Salvation for the Dead: A Missionary Activity",
+        url: "https://www.churchofjesuschrist.org/study/general-conference/1975/04/salvation-for-the-dead-a-missionary-activity?lang=eng",
+        type: "Conferencia General",
+      },
+      {
+        title: "Why is consulting the dead banned? - BibleHub",
+        url: "https://biblehub.com/topical/n/necromancy.htm",
+        type: "Referencia Bíblica",
+      },
+      {
+        title: "Baptism for the Dead - LDS Church Newsroom UK",
+        url: "https://news-uk.churchofjesuschrist.org/article/baptism-for-the-dead",
+        type: "Noticias Oficiales",
+      },
+      {
+        title: "Everett Ferguson - Baptism in the Early Church (Reseña)",
+        url: "https://voice.dts.edu/review/everett-ferguson-baptism-in-the-early-church/",
+        type: "Reseña Académica",
+      },
+      {
+        title: "A Rescue for the Dead: Posthumous Salvation in Early Christianity",
+        url: "https://byustudies.byu.edu/article/a-rescue-for-the-dead-the-posthumous-salvation-of-non-christians-in-early-christianity",
+        type: "Académico",
+      },
+      {
+        title: "Their Salvation Is Necessary and Essential to Our Salvation - BYU RSC",
+        url: "https://rsc.byu.edu/eye-faith/their-salvation-necessary-essential-our-salvation-joseph-smith-practice-baptism-confirmation-dead",
+        type: "Académico",
+      },
+    ],
+
+    footer: "Escrito con 💙",
+  },
 ];
 
 export default articles;
