@@ -2911,7 +2911,7 @@ Estos atributos divinos raras veces se desarrollan en la comodidad.`,
 
     content: {
       introduction:
-        "Esta semana me comentaron algo que me hizo reflexionar profundamente. Una persona, con genuina curiosidad, me preguntó: \"Si la Biblia prohíbe consultar a los muertos, ¿por qué ustedes hacen bautismos y otras cosas por ellos en el templo? ¿No es eso exactamente lo que Deuteronomio condena?\"\n\nY luego añadió: \"Además, la salvación viene por gracia, ¿no? Si Dios salva a todos por Su gracia, ¿por qué necesitarían bautismo quienes nunca conocieron el evangelio? Dios es justo, Él no los condenaría por algo que nunca supieron.\"\n\nSon preguntas completamente válidas, y me di cuenta de que muchos, incluso algunos miembros de la Iglesia, no tienen del todo claro cómo responderlas.\n\n**La respuesta rápida es:** no, la obra del templo no es lo que la Biblia prohíbe, y segundo, la gracia no elimina la necesidad de las ordenanzas que Dios mandó. Pero estas respuestas merecen un análisis mucho más profundo, porque aquí hay doctrina hermosa que vale la pena entender.",
+        "Esta semana me comentaron algo que me hizo reflexionar. Una persona, con genuina curiosidad, me preguntó: \"Si la Biblia prohíbe consultar a los muertos, ¿por qué ustedes hacen bautismos y otras cosas por ellos en el templo? ¿No es eso exactamente lo que Deuteronomio condena?\"\n\nY luego añadió: \"Además, la salvación viene por gracia, ¿no? Si Dios salva a todos por Su gracia, ¿por qué necesitarían bautismo quienes nunca conocieron el evangelio? Dios es justo, Él no los condenaría por algo que nunca supieron.\"\n\nSon preguntas completamente válidas, y me di cuenta de que muchos, incluso algunos miembros de la Iglesia, no tienen del todo claro cómo responderlas.\n\n**La respuesta rápida es:** no, la obra del templo no es lo que la Biblia prohíbe, y segundo, la gracia no elimina la necesidad de las ordenanzas que Dios mandó. Pero estas respuestas merecen un análisis mucho más profundo, porque aquí hay doctrina hermosa que vale la pena entender.",
 
       sections: [
         {
@@ -3243,6 +3243,407 @@ Ese es el Dios al que servimos. Ese es el Cristo al que adoramos. Y esa es la ra
     ],
 
     footer: "Escrito con 💙",
+  },
+  {
+    id: 10,
+    title: "¿Qué es la Palabra de Sabiduría?",
+    subtitle: "¿Por qué guardarla si no está en la Biblia?",
+    date: "2025-12-29",
+    author: "David Cruz",
+    category: "Mandamientos y Convenios",
+    readTime: "25 min",
+    featured: true,
+    description:
+      "Exploramos el origen histórico de la Palabra de Sabiduría, su evolución de consejo a mandamiento, la evidencia científica que valida sus principios, y por qué los Santos de los Últimos Días guardan mandamientos que no están en la Biblia.",
+
+    content: {
+      introduction:
+        'La semana pasada, mientras leía preguntas en un foro cristiano, me encontré con este comentario que me hizo reflexionar: "Ustedes los mormones tienen reglas extrañas sobre no beber café ni té. ¿Dónde está eso en la Biblia? Si siguen *sola scriptura* como buenos cristianos, no deberían inventar mandamientos que Dios nunca dio. Suena más a legalismo farisaico que a libertad en Cristo."\n\nY luego alguien más agregó una pregunta que honestamente me pareció brillante: "Si el problema es la cafeína, ¿puedo tomar café descafeinado? Y si el problema es el alcohol, ¿puedo tomar cerveza sin alcohol? ¿O es algo más profundo que simplemente evitar sustancias específicas?"\n\nCuando comencé a investigar las respuestas a estas preguntas, descubrí que la Palabra de Sabiduría es mucho más compleja, más interesante históricamente, y más profunda teológicamente de lo que la mayoría de los miembros (y ciertamente la mayoría de los críticos) entienden, porque **no se trata simplemente de "reglas arbitrarias sobre bebidas" sino de un principio revelado sobre cómo Dios guía a Su pueblo mediante revelación continua**, algo que desafía directamente la doctrina protestante de *sola scriptura*.',
+
+      sections: [
+        {
+          heading: "El Origen Histórico: Una Revelación en Respuesta a un Problema Práctico",
+          content: `Contrario a lo que muchos críticos asumen (que José Smith inventó la Palabra de Sabiduría para controlar a sus seguidores o imitar movimientos de temperancia), la revelación surgió en respuesta a un problema completamente mundano y práctico en la Escuela de los Profetas en Kirtland, Ohio.
+
+José estaba entrenando a hombres recientemente convertidos para ser misioneros. Estos hombres se reunían en el segundo piso de la tienda mercantil de Newel K. Whitney en enero de 1833, y muchos de ellos fumaban tabaco durante las reuniones, lo que creaba un ambiente sofocante y desagradable, además de ensuciar el piso con tabaco masticado.
+
+**Emma Smith**, esposa del profeta, expresó su frustración por tener que limpiar el desastre de tabaco después de cada reunión, y según algunos relatos históricos, fue parcialmente en respuesta a estas quejas prácticas que José Smith buscó al Señor preguntando si había una mejor manera de manejar estos asuntos de salud.
+
+El **27 de febrero de 1833**, José Smith dictó la revelación que ahora conocemos como Doctrina y Convenios 89, y significativamente, el texto mismo comienza diciendo:
+
+> "Una Palabra de Sabiduría, para beneficio del concilio de sumos sacerdotes, reunidos en Kirtland, y de la iglesia, y también de los santos en Sion—Para ser enviado, saludando; **no por vía de mandamiento o por compulsión, sino por revelación y la palabra de sabiduría**." (D&C 89:1-2)
+
+Nota cuidadosamente esa frase crucial: **"no por vía de mandamiento o por compulsión"**, algo que será importante cuando exploremos cómo esta revelación evolucionó de consejo voluntario a requisito para el templo décadas después.`,
+        },
+        {
+          heading: "Qué Prohíbe y Qué Recomienda Específicamente",
+          content: `La revelación en sí es notablemente breve y directa, prohibiendo cuatro categorías principales de sustancias mientras recomienda positivamente alimentos saludables, creando así tanto un código negativo (evitar) como positivo (buscar).
+
+**Las prohibiciones específicas incluyen:**
+
+1. **Vino y bebidas fuertes (alcohol)** — excepto para sacramento sacramental usando vino puro de uva (aunque incluso esto fue posteriormente cambiado a agua).
+2. **Tabaco** — "no es para el cuerpo ni para el vientre, y no es bueno para el hombre" (D&C 89:8).
+3. **Bebidas calientes** — que líderes de la Iglesia inmediatamente interpretaron como **té y café** específicamente, no todas las bebidas servidas a temperatura caliente.
+
+**Las recomendaciones positivas que frecuentemente son olvidadas:**
+
+- **Todo grano** es bueno para el alimento del hombre, especialmente trigo que es "para el hombre" (D&C 89:17).
+- **Frutas de temporada** deben comerse con prudencia y acción de gracias (D&C 89:11).
+- **La carne** debe usarse "únicamente en tiempos de invierno, o de frío, o de hambre" y no en exceso (D&C 89:12-13).
+- **Todas las hierbas saludables** deben usarse con juicio (D&C 89:10-11).
+
+**Las promesas específicas para quienes obedecen incluyen:**
+
+> "Y todos los santos que se acuerden de guardar y hacer estas cosas, rindiendo obediencia a los mandamientos, recibirán salud en el ombligo y médula en los huesos; y hallarán sabiduría y grandes tesoros de conocimiento, aún tesoros escondidos; y correrán sin fatigarse, y andarán sin desmayarse. Y yo, el Señor, les prometo que el ángel destructor pasará de ellos, como de los hijos de Israel, y no los matará." (D&C 89:18-21)
+
+Estas promesas incluyen **salud física, resistencia aumentada, protección divina, y conocimiento espiritual**.`,
+        },
+        {
+          heading: "La Evolución Histórica: De Consejo a Mandamiento",
+          content: `Aquí es donde la historia se vuelve fascinante y honestamente un poco incómoda para algunos miembros, porque **durante casi 90 años después de que fue dada, la Palabra de Sabiduría fue tratada como consejo voluntario, no como mandamiento obligatorio**, y muchos líderes de la Iglesia (incluyendo Brigham Young) no la guardaban estrictamente.
+
+Un estudio académico exhaustivo publicado en *BYU Studies* documenta que "la era de Brigham Young comenzó con una tolerancia fácil sobre el cumplimiento de la Palabra de Sabiduría que reflejaba tanto la redacción flexible de la revelación de José Smith como las normas sociales del siglo XIX."
+
+Los registros históricos muestran que incluso Brigham Young, quien eventualmente presionó fuertemente por mayor observancia, inicialmente permitió considerable flexibilidad, reconociendo que "había demandas más apremiantes sobre sus santos que enfrentar directamente sus hábitos de bebida arraigados."
+
+En los años 1850s, Brigham Young comenzó campañas de reforma más serias, particularmente contra la embriaguez pública que consideraba la violación más grave, pero incluso entonces el énfasis era en **templanza (moderación) más que abstinencia total**, y ciertamente no era un requisito para membresía de la Iglesia o asistencia al templo.
+
+**El cambio definitivo ocurrió en 1921** cuando el presidente **Heber J. Grant**, quien había hecho del cumplimiento de la Palabra de Sabiduría una prioridad personal durante años, finalmente estableció que la adherencia a la Palabra de Sabiduría sería **requisito para obtener una recomendación para el templo**, convirtiendo así lo que José Smith había dado como "no por vía de mandamiento" en un mandamiento literal para acceso al templo.
+
+Esto plantea una pregunta teológica profunda que merece reflexión honesta: **¿Cómo puede algo que Dios explícitamente dijo "no por vía de mandamiento" convertirse posteriormente en mandamiento?**
+
+La respuesta SUD es que esto demuestra precisamente el principio de **revelación continua**, donde Dios adapta Sus mandamientos a las circunstancias cambiantes de Su pueblo, comenzando con consejo gentil cuando los hábitos culturales estaban profundamente arraigados y luego elevando el estándar cuando el pueblo estaba listo para mayor compromiso.`,
+        },
+        {
+          heading: "¿Por Qué Guardarla Si No Está en la Biblia?",
+          content: `Esta pregunta revela una de las diferencias teológicas más fundamentales entre los Santos de los Últimos Días y el protestantismo tradicional, porque toca directamente la doctrina de ***sola scriptura*** (solo escritura) que fue central a la Reforma Protestante pero que los SUD explícitamente rechazan.
+
+**La doctrina protestante de *sola scriptura*** enseña que:
+- La Biblia es la única autoridad infalible para fe y práctica.
+- El canon de las escrituras está cerrado.
+- Cualquier enseñanza no encontrada en la Biblia debe ser rechazada como no autorizada.
+
+Por lo tanto, desde esta perspectiva, la Palabra de Sabiduría sería considerada una "adición" ilegítima a las escrituras que viola el mandamiento de Apocalipsis 22:18-19 de no añadir ni quitar de las palabras de "este libro".
+
+**Los Santos de los Últimos Días, sin embargo, creemos en revelación continua**, explícitamente declarada en el Artículo de Fe 9:
+
+> "Creemos todo lo que Dios ha revelado, todo lo que actualmente revela, y creemos que aún revelará muchos grandes e importantes asuntos pertenecientes al Reino de Dios."
+
+Esto sugiere un **canon abierto** donde Dios continúa hablando a profetas vivientes así como habló a profetas antiguos.
+
+**La lógica SUD es directa y poderosa:** Si Dios habló a Moisés dándole leyes dietéticas en Levítico (como no comer cerdo o mariscos), y si Dios habló a Daniel preservándolo cuando rehusó comer la comida del rey (Daniel 1), y si Jesús mismo dijo "aún tengo muchas cosas que deciros, pero ahora no las podéis sobrellevar" (Juan 16:12), entonces **¿por qué asumiríamos que Dios dejó de hablar después del libro de Apocalipsis?**
+
+De hecho, la Biblia misma proporciona ejemplos de revelación continua que cambió prácticas previas:
+- **Pedro** recibió la visión en Hechos 10 que abolió las leyes dietéticas del Antiguo Testamento.
+- El **Concilio de Jerusalén** en Hechos 15 tomó decisiones doctrinales basadas en discusión y revelación continua.
+- **Pablo** recibió revelaciones que no estaban en los evangelios que escribió en sus epístolas.
+
+
+Desde la perspectiva SUD, **la Palabra de Sabiduría no contradice la Biblia sino que la extiende**, aplicando principios bíblicos eternos (cuidar el cuerpo como templo del Espíritu Santo, 1 Corintios 6:19-20) a circunstancias modernas que no existían en tiempos bíblicos.`,
+        },
+        {
+          heading: "La Pregunta del Café Descafeinado y la Cerveza Sin Alcohol",
+          content: `Ahora podemos abordar la pregunta: **Si el problema es la cafeína, ¿puedo tomar café descafeinado? Si el problema es el alcohol, ¿puedo tomar cerveza sin alcohol?**
+
+**La respuesta oficial de la Iglesia es clara pero quizás sorprendente:** la cafeína en sí misma no está prohibida por la Palabra de Sabiduría, lo que significa que:
+- **Refrescos con cafeína** (como Coca-Cola o Pepsi) están permitidos, aunque muchos miembros personalmente elijan evitarlos.
+- **Café y té están prohibidos independientemente de su contenido de cafeína.**
+
+El sitio oficial de preguntas frecuentes de la Iglesia aclara:
+
+> "En años recientes la Iglesia ha clarificado bebidas a base de café que van por diferentes nombres, ya que la palabra café no siempre está incluida. La actualización establece: 'Bebidas con nombres que incluyen café o caffé, mocha, latte, espresso, o cualquier cosa que termine en -ccino son café y van contra la Palabra de Sabiduría.'"
+
+Esto significa que:
+- **Café descafeinado todavía está prohibido** porque la prohibición es sobre café específicamente, no sobre cafeína.
+- **Bebidas energéticas con altas dosis de cafeína** técnicamente no están prohibidas, aunque muchos líderes aconsejan precaución sobre cualquier sustancia adictiva.
+- **Cerveza sin alcohol o vino sin alcohol todavía violarían la Palabra de Sabiduría** porque la prohibición es sobre estas bebidas específicamente.
+
+**Pero aquí está la sabiduría más profunda** que el presidente Boyd K. Packer enseñó:
+
+> "La Palabra de Sabiduría fue 'dada como un principio con promesa' (D&C 89:3)... Un principio es una verdad perdurable, una ley, una regla que puedes adoptar para guiarte en tomar decisiones. Generalmente los principios no se detallan específicamente... Obediencia al consejo te mantendrá en el lado seguro de la vida."
+
+**Esto sugiere que la obediencia madura no busca "qué tan cerca puedo llegar a la línea sin cruzarla"** (el espíritu farisaico de buscar loopholes técnicos), sino más bien **"¿cómo puedo vivir el principio subyacente lo más completamente posible?"**
+
+El objetivo no es cumplimiento legalista de reglas arbitrarias sino desarrollo de:
+- Autodisciplina
+- Salud física y mental
+- Sensibilidad espiritual`,
+        },
+        {
+          heading: "La Evidencia Científica: Profético Antes de Que la Ciencia lo Supiera",
+          content: `Una de las validaciones más poderosas de la Palabra de Sabiduría como revelación genuina es que **anticipó descubrimientos científicos por más de un siglo**.
+
+En 1833 cuando fue dada:
+- La conexión entre tabaco y cáncer era completamente desconocida.
+- Los efectos dañinos del alcoholismo apenas comenzaban a reconocerse.
+- Café y té eran considerados saludables por la mayoría de los médicos.
+
+**El estudio más impresionante proviene de UCLA**, donde los investigadores **James Enstrom y Lester Breslow** estudiaron a más de 9,800 parejas mormonas fieles en California durante 25 años (1980-2004) y descubrieron resultados asombrosos:
+
+📊 **Resultados del Estudio UCLA:**
+- **Hombres SUD practicantes:** esperanza de vida de **84.1 años**—9.8 años más larga que hombres blancos estadounidenses en general.
+- **Mujeres SUD practicantes:** esperanza de vida de **86.1 años**—5.6 años más larga que mujeres blancas estadounidenses en general.
+- Estos fueron **"las tasas de mortalidad total más bajas y las esperanzas de vida más largas jamás documentadas en una cohorte estadounidense bien definida"**.
+
+El comunicado de prensa de UCLA resumió:
+
+> "Si quieres vivir una vida larga y saludable, quizás quieras tomar un consejo de los mormones."
+
+**El hallazgo más significativo fue que cuanto más estrictamente los mormones seguían los elementos del estilo de vida mormón, más tiempo vivían**, sugiriendo una relación causal directa entre obediencia a la Palabra de Sabiduría y longevidad aumentada.
+
+**Detalles del estudio:**
+- Hombres SUD religiosamente activos (sumos sacerdotes) tenían **40% menos probabilidad de morir** que hombres blancos estadounidenses en promedio.
+- Mujeres SUD que hacían lo mismo tenían **34% menos probabilidad de morir** que sus contrapartes.
+- La probabilidad de muerte se redujo a **52% para hombres** y **40% para mujeres** que consistentemente vivían la Palabra de Sabiduría.
+
+Estos resultados son tan estadísticamente significativos que son difíciles de explicar excepto como validación científica de un principio revelado, porque José Smith no tenía manera de saber en 1833 que:
+- Tabaco causaría cáncer de pulmón
+- Alcohol contribuiría a cirrosis hepática y accidentes automovilísticos
+- Una dieta basada en granos y frutas sería validada por investigación nutricional moderna`,
+        },
+        {
+          heading: "Las Dimensiones Espirituales Más Allá de Salud Física",
+          content: `Pero reducir la Palabra de Sabiduría a meramente un código de salud física es perder su propósito más profundo, porque la revelación misma promete no solo salud física sino:
+
+> "Y hallarán sabiduría y grandes tesoros de conocimiento, aún tesoros escondidos." (D&C 89:19)
+
+Esto sugiere **beneficios espirituales que trascienden mera longevidad**.
+
+**La lógica teológica aquí es profunda:** Si el cuerpo es literalmente "templo del Espíritu Santo" (1 Corintios 6:19), entonces cómo tratamos nuestros cuerpos afecta directamente nuestra capacidad de recibir revelación espiritual.
+
+**Sustancias adictivas** (nicotina, alcohol, cafeína en café/té) alteran química cerebral de maneras que potencialmente interfieren con la voz sutil del Espíritu Santo.
+
+Muchos miembros testifican que después de dejar café o té (incluso si no eran adictos), experimentaron:
+- Mayor claridad mental
+- Sensibilidad espiritual aumentada
+- Mayor apertura a lo divino
+
+Además, **hay un componente de obediencia que trasciende la sustancia específica**, similar a cómo la prohibición del Antiguo Testamento sobre comer cerdo no era principalmente sobre salud sino sobre **obediencia distintiva** que separaba a Israel de naciones circundantes.
+
+La Palabra de Sabiduría funciona como **marcador de identidad** que distingue a los Santos de los Últimos Días y requiere sacrificio deliberado de placeres culturalmente normalizados como señal de compromiso con el convenio.
+
+El presidente Gordon B. Hinckley enseñó que guardar la Palabra de Sabiduría "se ha convertido en la marca de un verdadero Santo de los Últimos Días," no en el sentido de superioridad moral sino en el sentido de **identidad distintiva y obediencia consagrada**.`,
+        },
+        {
+          heading: "Respondiendo a la Acusación de Legalismo Farisaico",
+          content: `Finalmente, debemos abordar la acusación: **¿Es la Palabra de Sabiduría simplemente legalismo farisaico que contradice la libertad cristiana que Pablo enseñó?**
+
+Pablo escribió explícitamente:
+- "Todas las cosas me son lícitas" (1 Corintios 6:12)
+- "El reino de Dios no es comida ni bebida" (Romanos 14:17)
+
+¿Aparentemente contradiciendo cualquier código dietético?
+
+**La respuesta requiere distinguir entre dos tipos de mandamientos:**
+
+1. **Mandamientos que reflejan verdad moral eterna** (no matar, no robar)
+2. **Mandamientos que son señales de convenio** (circuncisión para Israel, Palabra de Sabiduría para SUD)
+
+Pablo explícitamente abolió **circuncisión** como requisito para cristianos gentiles (Gálatas 5:2-6) pero no abolió todos los mandamientos de señales de convenio, manteniendo **bautismo y sacramento** como ordenanzas obligatorias.
+
+**Los Santos de los Últimos Días ven la Palabra de Sabiduría en esta segunda categoría**—no como ley moral universal sino como mandamiento de convenio dado específicamente a los santos de los últimos días como señal de su identidad distintiva y compromiso.
+
+Esto no es **legalismo farisaico** (que Jesús condenó por colocar cargas innecesarias mientras perdía el corazón de la ley) sino más bien **obediencia de convenio** (que Jesús practicó diciendo "no he venido para abolir la ley sino para cumplirla," Mateo 5:17).
+
+Como Pablo mismo escribió en ese mismo pasaje:
+
+> "Todas las cosas me son lícitas, mas no todas convienen; todas las cosas me son lícitas, mas yo no me dejaré dominar de ninguna." (1 Corintios 6:12)
+
+Esto sugiere que aunque tenemos libertad técnica, **la sabiduría dicta autodisciplina voluntaria**, exactamente el espíritu de la Palabra de Sabiduría que originalmente vino "no por vía de mandamiento" sino como principio sabio.`,
+        },
+        {
+          heading: "Una Invitación a Considerar",
+          content: `Al final, la Palabra de Sabiduría plantea preguntas profundas sobre:
+- La naturaleza de la autoridad religiosa
+- El canon de las escrituras
+- Cómo Dios guía a Su pueblo
+
+`,
+        },
+      ],
+
+      conclusion:
+        "La Palabra de Sabiduría representa mucho más que una lista de prohibiciones. Es un testimonio viviente del principio de revelación continua, una demostración del amor de Dios por Sus hijos mediante guía profética, y una validación científica de sabiduría divina que anticipó descubrimientos médicos por más de un siglo.\n\nNo guardamos la Palabra de Sabiduría porque esté en la Biblia, sino porque creemos que el mismo Dios que habló a los profetas antiguos sigue hablando hoy. Y los resultados—vidas más largas, salud mejorada, y sensibilidad espiritual aumentada—testifican de la sabiduría de seguir el consejo de profetas vivientes.",
+    },
+
+    keyScriptures: [
+      {
+        reference: "D&C 89:1-2",
+        text: "No por vía de mandamiento o por compulsión, sino por revelación y la palabra de sabiduría.",
+        context: "La naturaleza original de la revelación como consejo, no mandamiento.",
+      },
+      {
+        reference: "D&C 89:18-21",
+        text: "Recibirán salud en el ombligo y médula en los huesos... hallarán sabiduría y grandes tesoros de conocimiento.",
+        context: "Las promesas físicas y espirituales de obedecer la Palabra de Sabiduría.",
+      },
+      {
+        reference: "D&C 89:8",
+        text: "Y además, el tabaco no es para el cuerpo ni para el vientre, y no es bueno para el hombre.",
+        context: "Prohibición profética del tabaco más de 100 años antes de que la ciencia descubriera su peligro.",
+      },
+      {
+        reference: "1 Corintios 6:19-20",
+        text: "¿O ignoráis que vuestro cuerpo es templo del Espíritu Santo... por tanto, glorificad a Dios en vuestro cuerpo.",
+        context: "Principio bíblico de cuidar el cuerpo como templo que la Palabra de Sabiduría aplica.",
+      },
+      {
+        reference: "Juan 16:12",
+        text: "Aún tengo muchas cosas que deciros, pero ahora no las podéis sobrellevar.",
+        context: "Jesús prometió revelación continua más allá de lo que enseñó en persona.",
+      },
+      {
+        reference: "Hechos 10:9-16",
+        text: "La visión de Pedro aboliendo leyes dietéticas del Antiguo Testamento.",
+        context: "Ejemplo bíblico de revelación continua cambiando mandamientos previos.",
+      },
+      {
+        reference: "Artículo de Fe 9",
+        text: "Creemos todo lo que Dios ha revelado, todo lo que actualmente revela, y creemos que aún revelará muchos grandes e importantes asuntos.",
+        context: "Declaración doctrinal SUD sobre revelación continua y canon abierto.",
+      },
+    ],
+
+    reflectionQuestions: [
+      "¿Creo genuinamente que Dios todavía habla mediante profetas vivientes, o solo acepto revelación antigua?",
+      "¿Guardo la Palabra de Sabiduría por obediencia de convenio o simplemente por costumbre cultural?",
+      "¿He experimentado personalmente las bendiciones espirituales (no solo físicas) prometidas en D&C 89?",
+      "¿Mi obediencia busca 'qué tan cerca puedo llegar a la línea' o 'cómo puedo vivir el principio completamente'?",
+      "¿Cómo respondería a alguien que pregunta por qué guardo mandamientos que no están en la Biblia?",
+      "¿He considerado que la evidencia científica validando la Palabra de Sabiduría es evidencia de revelación genuina?",
+    ],
+
+    relatedTopics: [
+      { sectionId: "commandments", topicId: 1 }, // Obediencia
+      { sectionId: "restoration", topicId: 2 }, // Revelación Continua
+      { sectionId: "principles", topicId: 5 }, // Convenios
+    ],
+
+    tags: [
+      "Palabra de Sabiduría",
+      "D&C 89",
+      "revelación continua",
+      "sola scriptura",
+      "José Smith",
+      "Heber J. Grant",
+      "Brigham Young",
+      "café y té",
+      "tabaco",
+      "alcohol",
+      "salud",
+      "longevidad",
+      "estudio UCLA",
+      "James Enstrom",
+      "evidencia científica",
+      "legalismo",
+      "obediencia de convenio",
+      "templo del Espíritu Santo",
+    ],
+
+    sources: [
+      {
+        title: "The Word of Wisdom - Revelations in Context (Oficial)",
+        url: "https://www.churchofjesuschrist.org/study/manual/revelations-in-context/the-word-of-wisdom?lang=eng",
+        type: "Manual Oficial",
+      },
+      {
+        title: "Ask Us: Top Reference Questions about the Word of Wisdom",
+        url: "https://history.churchofjesuschrist.org/blog/ask-us-top-reference-questions-about-the-word-of-wisdom?lang=eng",
+        type: "Historia de la Iglesia",
+      },
+      {
+        title: "Word of Wisdom - Gospel Topics (Oficial)",
+        url: "https://www.churchofjesuschrist.org/study/manual/gospel-topics/word-of-wisdom?lang=eng",
+        type: "Gospel Topics",
+      },
+      {
+        title: "Statement on the Word of Wisdom - Newsroom",
+        url: "https://newsroom.churchofjesuschrist.org/article/statement-word-of-wisdom-august-2019",
+        type: "Declaración Oficial",
+      },
+      {
+        title: "Vaping, Coffee, Tea, and Marijuana - New Era",
+        url: "https://www.churchofjesuschrist.org/study/new-era/2019/08/vaping-coffee-tea-and-marijuana?lang=eng",
+        type: "Revista Oficial",
+      },
+      {
+        title: "Brigham Young's Word of Wisdom Legacy - BYU Studies",
+        url: "https://byustudies.byu.edu/article/brigham-youngs-word-of-wisdom-legacy",
+        type: "Académico",
+      },
+      {
+        title: "UCLA Study Proves Mormons Live Longer - Deseret News",
+        url: "https://www.deseret.com/2010/4/13/20375744/ucla-study-proves-mormons-live-longer/",
+        type: "Noticia",
+      },
+      {
+        title: "Lifestyle and Reduced Mortality Among Active California Mormons - PubMed",
+        url: "https://pubmed.ncbi.nlm.nih.gov/17920112/",
+        type: "Estudio Científico",
+      },
+      {
+        title: "Health Practices and Cancer Mortality - Journal of the National Cancer Institute",
+        url: "https://academic.oup.com/jnci/article-abstract/81/23/1807/895017",
+        type: "Estudio Científico",
+      },
+      {
+        title: "Cancer and Total Mortality Among Active Mormons - Cancer Journal",
+        url: "https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/1097-0142(197810)42:4%3C1943::AID-CNCR2820420437%3E3.0.CO;2-L",
+        type: "Estudio Científico",
+      },
+      {
+        title: "Mormon Lifestyle Leads to Longevity - UPI Archives",
+        url: "https://www.upi.com/Archives/1990/03/31/Your-Health-Mormon-lifestyle-leads-to-longevity/7417638859600/",
+        type: "Noticia",
+      },
+      {
+        title: "Religious Lifestyle Aspires to Good Health - BYU Universe",
+        url: "https://universe.byu.edu/2003/05/30/religious-lifestyle-aspires-to-good-health-says-ucla-researcher/",
+        type: "Noticia Académica",
+      },
+      {
+        title: "Why Don't Latter-day Saints Drink Coffee? - Come Unto Christ",
+        url: "https://www.churchofjesuschrist.org/comeuntochrist/article/why-dont-latter-day-saints-drink-coffee",
+        type: "Preguntas Frecuentes",
+      },
+      {
+        title: "Can Mormons Drink Coffee? - FAQ",
+        url: "https://faq.churchofjesuschrist.org/can-mormons-drink-coffee",
+        type: "FAQ Oficial",
+      },
+      {
+        title: "Continuous Revelation - Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Continuous_revelation",
+        type: "Enciclopedia",
+      },
+      {
+        title: "Honoring the Bible Mormon Style - MRM",
+        url: "https://mrm.org/honoring-the-bible-mormon-style",
+        type: "Análisis Crítico",
+      },
+      {
+        title: "Wine and Alcoholic Beverages - FAIR Latter-day Saints",
+        url: "https://www.fairlatterdaysaints.org/answers/Word_of_Wisdom/Wine_and_alcoholic_beverages",
+        type: "Análisis Apologético",
+      },
+      {
+        title: "Why Mormons Don't Drink Alcohol, Tea and Coffee",
+        url: "https://pacific.churchofjesuschrist.org/why-mormons-dont-drink-alcohol-tea-and-coffee",
+        type: "Artículo Explicativo",
+      },
+      {
+        title: "D&C 89 - Doctrine and Covenants",
+        url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/89?lang=eng",
+        type: "Escrituras",
+      },
+      {
+        title: "Word of Wisdom History - Church History Topics",
+        url: "https://www.churchofjesuschrist.org/study/history/topics/word-of-wisdom-dc-89?lang=eng",
+        type: "Historia Oficial",
+      },
+    ],
+
+    footer: "Escrito con 🤍",
   },
 ];
 

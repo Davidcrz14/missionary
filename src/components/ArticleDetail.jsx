@@ -167,7 +167,7 @@ const ArticleDetail = ({ article }) => {
                 {article.content?.conclusion && (
                     <div className="mt-12 p-8 bg-gray-50 rounded-3xl">
                         <h3 className="text-xl font-bold text-gray-900 mb-4">
-                            Conclusión
+                            The End
                         </h3>
                         <div className="text-gray-800 leading-relaxed text-lg prose prose-lg max-w-none">
                             <ReactMarkdown components={conclusionMarkdownComponents}>
