@@ -20,7 +20,7 @@ const HomePage = () => {
 
             {/* Hero Text */}
             <div className="text-center mt-12 mb-16 relative">
-                 {/* Decorative 'Starburst' textur (Simulated simple SVG positioned absolute if needed, or keeping clean for now as requested 'clone') */}
+                {/* Decorative 'Starburst' textur (Simulated simple SVG positioned absolute if needed, or keeping clean for now as requested 'clone') */}
                 <h1 className="text-4xl md:text-5xl font-medium text-black mb-3 tracking-tight">
                     Temas Fundamentales del Evangelio
                 </h1>
@@ -40,7 +40,7 @@ const HomePage = () => {
                     return (
                         <Link
                             key={section.id}
-                            to={`/section/${section.id}`}
+                            to={section.customLink || `/section/${section.id}`}
                             className={`
                                 group relative w-full aspect-square
                                 ${colorClass}
@@ -72,25 +72,25 @@ const HomePage = () => {
                 })}
             </div>
 
-             {/* Background Decoration Elements (Starbursts) - Absolute positioned to Body/Container normally, placing here for containment */}
-             <div className="fixed top-0 left-0 w-full h-full pointer-events-none -z-10 overflow-hidden">
+            {/* Background Decoration Elements (Starbursts) - Absolute positioned to Body/Container normally, placing here for containment */}
+            <div className="fixed top-0 left-0 w-full h-full pointer-events-none -z-10 overflow-hidden">
                 {/* Left Starburst */}
                 <svg className="absolute top-20 -left-20 w-96 h-96 text-black/5 opacity-20" viewBox="0 0 200 200">
                     <g transform="translate(100,100)">
                         {[...Array(24)].map((_, i) => (
-                             <line key={i} x1="0" y1="0" x2="100" y2="0" transform={`rotate(${i * 15})`} stroke="currentColor" strokeWidth="0.5" />
+                            <line key={i} x1="0" y1="0" x2="100" y2="0" transform={`rotate(${i * 15})`} stroke="currentColor" strokeWidth="0.5" />
                         ))}
                     </g>
                 </svg>
-                 {/* Right Starburst */}
-                 <svg className="absolute top-20 -right-20 w-96 h-96 text-black/5 opacity-20" viewBox="0 0 200 200">
+                {/* Right Starburst */}
+                <svg className="absolute top-20 -right-20 w-96 h-96 text-black/5 opacity-20" viewBox="0 0 200 200">
                     <g transform="translate(100,100)">
                         {[...Array(24)].map((_, i) => (
-                             <line key={i} x1="0" y1="0" x2="100" y2="0" transform={`rotate(${i * 15})`} stroke="currentColor" strokeWidth="0.5" />
+                            <line key={i} x1="0" y1="0" x2="100" y2="0" transform={`rotate(${i * 15})`} stroke="currentColor" strokeWidth="0.5" />
                         ))}
                     </g>
                 </svg>
-             </div>
+            </div>
         </div>
     )
 }

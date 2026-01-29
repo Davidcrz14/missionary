@@ -66,10 +66,26 @@ export const sections = [
       questions: "32+",
     },
   },
+  {
+    id: "history",
+    title: "E. Historia de la Iglesia",
+    subtitle: "La Restauración del Evangelio",
+    description: "La historia sagrada de cómo Dios restauró Su iglesia en los últimos días",
+    icon: "book", // Historia - Libro de historia/Registros
+    color: "teal",
+    customLink: "/history", // Página especial dedicada
+    topics: [], // Sin temas individuales, es una página completa
+    stats: {
+      topics: "Página completa",
+      scriptures: "40+",
+      activities: "Línea de tiempo",
+      questions: "18 profetas",
+    },
+  },
   // TEMPORALMENTE DESACTIVADO - Habilidades Misionales
   // {
   //   id: "skills",
-  //   title: "E. Habilidades Misionales",
+  //   title: "F. Habilidades Misionales",
   //   subtitle: "Enseñar con poder",
   //   description: "Herramientas prácticas para enseñar el evangelio",
   //   icon: "wand-magic-sparkles", // Habilidades - El "arte" de enseñar
@@ -84,7 +100,7 @@ export const sections = [
   // },
   {
     id: "articles",
-    title: "F. Artículos",
+    title: "G. Artículos",
     subtitle: "Estudios doctrinales profundos",
     description: "Análisis teológico de temas selectos del evangelio",
     icon: "feather-pointed", // Artículos - Escritura/Pluma

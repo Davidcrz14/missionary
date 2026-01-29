@@ -1,4 +1,6 @@
 import ReactMarkdown from 'react-markdown';
+import { Link } from 'react-router-dom';
+import { getTopicById } from '../data/sections/sectionsConfig';
 
 const ArticleDetail = ({ article }) => {
     if (!article) {
@@ -241,6 +243,39 @@ const ArticleDetail = ({ article }) => {
                                 <span className="text-gray-300 group-hover:text-blue-600">↗</span>
                             </a>
                         ))}
+                    </div>
+                </div>
+            )}
+
+            {/* Temas Relacionados */}
+            {article.relatedTopics && article.relatedTopics.length > 0 && (
+                <div className="mb-20">
+                    <h2 className="text-2xl font-bold text-gray-900 mb-6 px-4">Temas Relacionados</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {article.relatedTopics.map((rel, index) => {
+                            const topic = getTopicById(rel.sectionId, rel.topicId);
+                            if (!topic) return null;
+                            return (
+                                <Link
+                                    key={index}
+                                    to={`/section/${rel.sectionId}/topic/${rel.topicId}`}
+                                    className="block p-6 bg-white rounded-[2rem] hover:shadow-lg transition-all border border-gray-100 group"
+                                >
+                                    <div className="flex justify-between items-start mb-2">
+                                        <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">
+                                            {topic.id}
+                                        </span>
+                                        <span className="text-gray-300 group-hover:text-blue-500 transition-colors">→</span>
+                                    </div>
+                                    <h3 className="font-bold text-xl text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                                        {topic.title}
+                                    </h3>
+                                    <p className="text-sm text-gray-500 line-clamp-2">
+                                        {topic.description}
+                                    </p>
+                                </Link>
+                            )
+                        })}
                     </div>
                 </div>
             )}

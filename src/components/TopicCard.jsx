@@ -8,6 +8,7 @@ const TopicCard = ({ topic, color = 'blue', index = 0 }) => {
         amber: 'bg-[#FFFDE7]',
         red: 'bg-[#FFEBEE]',
         indigo: 'bg-[#E0F2F1]',
+        teal: 'bg-[#E0F2F1]', // Teal para Historia de la Iglesia
     }
 
     const cardBg = CARD_COLORS[color] || 'bg-white'
@@ -27,7 +28,7 @@ const TopicCard = ({ topic, color = 'blue', index = 0 }) => {
                 </span>
 
                 {/* Arrow Icon on Hover */}
-                 <div className="opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-[-10px] group-hover:translate-x-0">
+                <div className="opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-[-10px] group-hover:translate-x-0">
                     <svg className="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
@@ -45,15 +46,22 @@ const TopicCard = ({ topic, color = 'blue', index = 0 }) => {
             </div>
 
             {/* Footer Stats (Simple dots or icons) */}
-             <div className="flex items-center gap-4 mt-6 pt-4 border-t border-black/5">
+            <div className="flex items-center gap-4 mt-6 pt-4 border-t border-black/5">
                 <div className="flex items-center gap-1 text-xs font-semibold text-gray-500">
                     <span>📖</span>
                     <span>{topic.keyScriptures?.length || 0}</span>
                 </div>
-                <div className="flex items-center gap-1 text-xs font-semibold text-gray-500">
-                    <span>⚡</span>
-                    <span>{topic.principles?.length || 0}</span>
-                </div>
+                {topic.readTime ? (
+                    <div className="flex items-center gap-1 text-xs font-semibold text-gray-500">
+                        <span>⏱️</span>
+                        <span>{topic.readTime}</span>
+                    </div>
+                ) : (
+                    <div className="flex items-center gap-1 text-xs font-semibold text-gray-500">
+                        <span>⚡</span>
+                        <span>{topic.principles?.length || 0}</span>
+                    </div>
+                )}
             </div>
         </div>
     );
