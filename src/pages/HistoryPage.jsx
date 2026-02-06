@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import {
     faBook,
     faScroll,
@@ -17,6 +18,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 const HistoryPage = () => {
+    useDocumentTitle('Historia de la Iglesia');
     // Línea de tiempo de eventos clave
     const timeline = [
         { year: "1820", event: "La Primera Visión", desc: "Arboleda Sagrada, Nueva York", highlight: true },
