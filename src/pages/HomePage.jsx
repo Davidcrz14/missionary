@@ -40,7 +40,7 @@ const HomePage = () => {
                     <span className="block text-gray-300 mt-1">del Evangelio</span>
                 </h1>
                 <p className="mt-6 text-gray-500 text-base md:text-lg max-w-xl mx-auto leading-relaxed">
-                    Doctrina, escrituras, restauración, mandamientos e historia — todo lo esencial para tu misión.
+                    Doctrina, escrituras, restauración, mandamientos e historia — todo lo esencial para la misión.
                 </p>
 
                 {/* Stats strip */}

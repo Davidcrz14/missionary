@@ -3,7 +3,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
 import ScrollToTop from './components/ScrollToTop'
 
-// Lazy-loaded pages — reduces initial bundle significantly
+// Lazy-loaded
 const HomePage = lazy(() => import('./pages/HomePage'))
 const HistoryPage = lazy(() => import('./pages/HistoryPage'))
 const SectionPage = lazy(() => import('./pages/SectionPage'))
@@ -37,4 +37,3 @@ function App() {
 }
 
 export default App
-

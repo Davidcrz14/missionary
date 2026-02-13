@@ -82,7 +82,7 @@ const Layout = ({ children }) => {
             {/* Footer */}
             <footer className="mt-auto border-t border-black/[0.04] bg-[#FFFBF5]">
                 <div className="max-w-[1400px] mx-auto px-6 md:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
-                    <div className="flex items-center gap-2 text-sm text-gray-400">
+                    <div className="flex items-center gap-2 text-sm text-gray-600">
                         <img
                             src="/christus-logo.png"
                             alt=""
@@ -92,7 +92,7 @@ const Layout = ({ children }) => {
                         />
                         <span>Notas de Estudio — Misioneros SUD</span>
                     </div>
-                    <p className="text-xs text-gray-300 text-center md:text-right">
+                    <p className="text-xs text-gray-700 text-center md:text-right">
                         © {currentYear} · Material de estudio no oficial · Hecho con ❤️ para los misioneros
                     </p>
                 </div>
